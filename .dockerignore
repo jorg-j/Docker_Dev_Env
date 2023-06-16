@@ -1,0 +1,10 @@
+env
+docker-compose.yaml
+Makefile
+setup.sh
+Dockerfile
+.vscode
+.notebooks
+**/__pycache__
+tests
+readme.md

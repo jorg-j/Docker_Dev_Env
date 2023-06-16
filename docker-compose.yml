@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  SERVICE:
+    container_name: 
+    image: 
+
+    environment:
+      - foo=baa
+    
+    ports:
+      - '80:80'
+    
+    volumes:
+      - host:container
