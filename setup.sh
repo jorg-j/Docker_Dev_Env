@@ -9,6 +9,6 @@ while [ ! -d "$directory" ]; do
 done
 
 rm main.zip
-mv -r $directory/ .
+mv $directory/ .
 rm -r $directory
 rm -r .git
