@@ -11,4 +11,5 @@ done
 rm main.zip
 mv $directory/* .
 rm -r $directory
-rm -r .git
+rm readme.md
+rm setup.sh
