@@ -13,3 +13,7 @@ services:
     
     volumes:
       - host:container
+    
+    mem_limit: 512m
+    mem_reservation: 128M
+    cpus: 0.5
